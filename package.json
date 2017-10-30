@@ -1,0 +1,39 @@
+{
+  "name": "noteme",
+  "description": "Noteme web application in Express/MongoDB/React/Redux.",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "chart.js": "^2.3",
+    "chartjs-color": "^2.1.0",
+    "chartjs-color-string": "^0.4.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.8.1",
+    "prop-types": "^15.5.8",
+    "react": "^0.14.3 || ^15.0.0",
+    "react-bootstrap": "^0.31.0",
+    "react-bootstrap-table": "^3.2.2",
+    "react-chartjs-2": "^2.0.5",
+    "react-dazzle": "^1.2.4",
+    "react-dom": "^0.14.3 || ^15.0.0",
+    "react-grid-layout": "^0.14.6",
+    "react-redux": "^5.0.4",
+    "react-route": "^1.0.3",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "socket.io-client": "^1.7.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
